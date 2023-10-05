@@ -1,0 +1,21 @@
+.teaser {
+  width: 50%;
+  overflow-x: auto;
+  border-style: outset;
+}
+
+.teaser > teaserTitle {
+  width: 100%;
+  max-width: 100%;
+  color: var(--overlay-table-background-color);
+  border-bottom: 2px solid var(--text-color);
+}
+
+
+.teaser > teaserText {
+  width: 100%;
+  max-width: 100%;
+  color: var(--overlay-table-background-color);
+  font-size: var(--body-font-size-xs);
+  border-bottom: 2px solid var(--text-color);
+}
