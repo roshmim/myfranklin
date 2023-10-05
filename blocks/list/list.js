@@ -1,5 +1,5 @@
 /*
- * Text Block
+ * My list component
  * 
  */
 
@@ -8,7 +8,7 @@
 export default async function decorate(block) {
 	// block.innerHTML = '';
     const mytext = document.createElement('h3');
-    mytext.innerHTML = "My List Component";
+    mytext.innerHTML = "List Component";
     
   const ul = document.createElement('ul');
   [...block.children].forEach((row) => {
