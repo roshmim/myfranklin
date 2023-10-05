@@ -11,6 +11,9 @@ function buildCell(rowIndex) {
 }
 
 export default async function decorate(block) {
+  const myHeading = document.createElement('h3');
+  myHeading.innerHTML = "My Table Component";
+
   const table = document.createElement('table');
   const thead = document.createElement('thead');
   const tbody = document.createElement('tbody');
@@ -26,5 +29,6 @@ export default async function decorate(block) {
     });
   });
   block.innerHTML = '';
+  block.append(myHeading);
   block.append(table);
 }
