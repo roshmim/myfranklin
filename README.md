@@ -26,5 +26,12 @@ npm run lint
 1. Open the `{repo}` directory in your favorite IDE and start coding :)
 
 Git Clone Repo - git clone https://github.com/roshmim/myfranklin.git
+
+git add "filename"
+
+git commit -m "Commit Comment"
+
+git push
+ 
 To Bring up Local Server - http://localhost:3000/
 Command : aem up &
