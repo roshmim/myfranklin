@@ -1,9 +1,9 @@
-# Your Project's Title...
+# My Franklin Project...
 Your project's description...
 
 ## Environments
-- Preview: https://main--{repo}--{owner}.hlx.page/
-- Live: https://main--{repo}--{owner}.hlx.live/
+- Preview: - https://main--myfranklin--roshmim.hlx.page/
+- Live: - https://main--myfranklin--roshmim.hlx.live/
 
 ## Installation
 
@@ -24,3 +24,7 @@ npm run lint
 1. Install the [AEM CLI](https://github.com/adobe/aem-cli): `npm install -g @adobe/aem-cli`
 1. Start AEM Proxy: `aem up` (opens your browser at `http://localhost:3000`)
 1. Open the `{repo}` directory in your favorite IDE and start coding :)
+
+Git Clone Repo - git clone https://github.com/roshmim/myfranklin.git
+To Bring up Local Server - http://localhost:3000/
+Command : aem up &
