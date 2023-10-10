@@ -27,6 +27,8 @@ npm run lint
 
 Git Clone Repo - git clone https://github.com/roshmim/myfranklin.git
 
+git status
+
 git add "filename"
 
 git commit -m "Commit Comment"
