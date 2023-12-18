@@ -8,7 +8,7 @@ import { createOptimizedPicture } from '../../scripts/aem.js';
 export default async function decorate(block) {
 	// block.innerHTML = '';
     const mytext = document.createElement('h3');
-    mytext.innerHTML = "My Teaser Component";
+    mytext.innerHTML = "My New Teaser Component";
     
   const finalhtml = document.createElement('div');
   [...block.children].forEach((row) => {
