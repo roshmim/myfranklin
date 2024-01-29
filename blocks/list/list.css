@@ -9,3 +9,159 @@
   color: var(--overlay-table-background-color);
   border-bottom: 2px solid var(--text-color);
 }
+
+#apply-now {
+  border-color: #b31616;
+  background-color: #e31111;
+  color: #fbfaf9;
+  padding: 20px 32px;
+  margin-left: 0%;
+  font-size: 1rem;
+  font-weight: 500;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  text-align: center;
+  text-transform: uppercase;
+  width: fit-content;
+  cursor: pointer;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px 20px 70px;
+  border: 1px solid #888;
+  width: 33%;
+  border-radius: 12px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.card-request-form {
+
+}
+.card-request-form .card-request-h2 {
+  color: #e68636;
+  font-size: 2.488rem;
+  line-height: 1.2;
+  font-weight: 700;
+  margin: 15px 0;
+}
+.card-request-form .card-request-msg {
+  color: #000000;
+  font-size: 20px;
+  padding: 40px 40px 20px;
+  line-height: 30px;
+  font-weight: 500;
+  margin: 15px 0;
+}
+.card-request-form .field-label {
+  position: relative;
+  z-index: 1;
+  margin-top: 16px;
+  margin-bottom: 8px;
+  font-size: .8rem;
+  text-transform: uppercase;
+  display: block;
+}
+.card-request-form .field-text {
+  display: block;
+  width: 100%;
+  padding: 8px 12px;
+  line-height: 1.428571429;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  height: 54px;
+  margin-bottom: 0;
+  border-radius: 3px;
+  color: #000;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+
+.card-request-form .form-screen-2 {
+  display: none;
+}
+.card-request-form .form-screen-3 {
+  display: none;
+  text-align: center;
+}
+
+
+.card-request-form .checkbox-block {
+  border-radius: 8px;
+  background-color: #f4f4f5;
+  padding: 20px;
+  margin: 20px 0;
+}
+.card-request-form .checkbox-block .field-label {
+  display: inline;
+  padding-left: 10px;
+  font-size: 15px;
+}
+.card-request-form .checkbox-block .field-checkbox {
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  vertical-align: middle;
+}
+
+
+.card-request-form .back-btn {
+  color: #71717a;
+  font-size: 16px;
+  margin-top: 20px;
+  display: inline-block;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.card-request-form .form-button {
+  display: flex;
+  margin: 15px 0;
+  flex: 0 0 auto;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e68636;
+  border-radius: 3px;
+  background-color: #e68636;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 8px 16px;
+  font-size: .64rem;
+  width: min-content;
+  float: right;
+  cursor: pointer;
+}
